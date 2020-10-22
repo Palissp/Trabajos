@@ -1,0 +1,117 @@
+
+
+
+#principal{
+	width: 900px;
+	height: auto ; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto
+
+}
+
+header{
+	width:900px;
+	height:110px;
+	border: px solid #000;
+	text-align: center;
+}
+
+#logo{
+	width:200px;
+	height:110px;
+	border:0px solid #000;
+	float: left;
+	text-align: center,
+}
+
+.titulo{
+	font-size: 30px;
+	margin-top: 25px;
+}
+
+#categorias{
+	width: 1000px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin-top: 15px;
+}
+
+.uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 0px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+
+.parrafo{
+	color: #707070;
+	text-align: center;
+}
+
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+
+* {
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.nav{
+			margin: auto;
+			width:600px;
+			font-family:Arial, Helvetica, sans-serif;
+			padding: 20px 20px 20px 20px;
+			float: right;
+		}
+ ul,ol{
+        	list-style:none;
+        }
+        .nav li a {
+        	background-color: #006699;
+        	color: #fff;
+        	text-decoration:none;
+        	padding: 20px 40px;
+        	display: block;
+        }
+        .nav li a:hover {
+        	background-color: #707070;
+        }
+        .nav > li {
+        	float: right;
+        	width: auto;
+        	height: auto;
+        } 
+        .nav li ul {
+        	display:none;
+        	position: absolute;
+        	min-width:140px;
+
+        }
+        .nav li:hover > ul {
+        	display:block;
+        }
+        .nav li ul li {
+        	position: relative; 
+        }
+        .nav li ul li ul {
+        	right: -140px;
+        	top: 0px;
+        }
+		footer{
+			width:900px;
+			height:60px;
+			border: px solid #000;
+			text-align: right;
+			margin-top: 30px;
+			list-style:none;
+			background-color: white;
+            color: white;
+            position: relative; 
+		}
+		
