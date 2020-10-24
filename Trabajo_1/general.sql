@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-10-2020 a las 00:10:49
+-- Tiempo de generación: 24-10-2020 a las 23:07:18
 -- Versión del servidor: 10.4.13-MariaDB
 -- Versión de PHP: 7.4.7
 
@@ -24,63 +24,15 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `registro`
+-- Estructura de tabla para la tabla `comments`
 --
 
-CREATE TABLE `registro` (
-  `nombre` varchar(20) NOT NULL,
-  `apellido` varchar(20) NOT NULL,
-  `email` varchar(30) NOT NULL,
-  `direccion` varchar(20) NOT NULL,
-  `telefono` varchar(15) NOT NULL,
-  `cedula` int(15) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Volcado de datos para la tabla `registro`
---
-
-INSERT INTO `registro` (`nombre`, `apellido`, `email`, `direccion`, `telefono`, `cedula`) VALUES
-('Marco', 'Perez', 'askda@aklsd.com', 'laskjdkl', '199121', 912912);
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `registrop`
---
-
-CREATE TABLE `registrop` (
-  `nombre` text NOT NULL,
-  `apellido` text NOT NULL,
+CREATE TABLE `comments` (
+  `user` text NOT NULL,
   `email` text NOT NULL,
-  `direccion` text NOT NULL,
-  `cedula` int(10) NOT NULL,
-  `telefono` int(10) NOT NULL,
-  `empresa` text NOT NULL
+  `comment` text NOT NULL,
+  `date` timestamp(4) NOT NULL DEFAULT current_timestamp(4) ON UPDATE current_timestamp(4)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Volcado de datos para la tabla `registrop`
---
-
-INSERT INTO `registrop` (`nombre`, `apellido`, `email`, `direccion`, `cedula`, `telefono`, `empresa`) VALUES
-('asdlkjas', 'lkjasdklj', 'laskjd@kasdl.com', 'askldaskl', 912889, 12892189, 'lkasdlkj');
-
---
--- Índices para tablas volcadas
---
-
---
--- Indices de la tabla `registro`
---
-ALTER TABLE `registro`
-  ADD PRIMARY KEY (`cedula`);
-
---
--- Indices de la tabla `registrop`
---
-ALTER TABLE `registrop`
-  ADD PRIMARY KEY (`cedula`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
