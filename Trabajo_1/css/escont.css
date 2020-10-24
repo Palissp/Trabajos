@@ -1,4 +1,6 @@
-
+.contenedor img {
+    margin: 5vh 0 0 0;
+}
 html {
 	background-image: url("https://www.howdeniberia.com/wp-content/uploads/2019/01/fondo-azul-marino.png");
 	font-family: 'Cairo', sans-serif;
@@ -25,7 +27,7 @@ html {
 	box-shadow: -5px -1px 24px -1px rgba(0, 0, 0, 0.68);
 	text-align: center;
   }
-  
+
   header {
 	display: flex;
 	justify-content: space-between;
@@ -59,7 +61,7 @@ html {
 #categorias{
 	width: 1000px;
 	height: auto; overflow: hidden;
-	border: 0px solid #000;
+	border: 40px solid #000;
 	margin-top: 15px;
 }
 
@@ -88,6 +90,7 @@ html {
 			padding: 0px;
 			margin: 0px;
 		}
+
 		.nav {
 			display: inline-flex;
 			flex-wrap: nowrap;
@@ -134,3 +137,4 @@ html {
         	top: 0px;
         }
 	
+		

@@ -1,32 +1,63 @@
 <html>
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="css/esayc2.css">
-        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div id="principal">
-            <header>
-				<div id="logo">
-					<img src="img/logo.jpeg">
-				</div>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/essug.css">
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div id="principal">
+		<header>
+			<div id="logo">
+				<img src="img/logo.jpeg">
+			</div>
 			<ul class="nav">
 				<li><a href="sugerencias.html">Sugerencias</a>
 				<li><a href="contacto.html">Contactos</a>
 				</li>
-		  
+
 				<li class="btn"><a href="">Productos</a>
-				<ul>
+					<ul>
 						<li><a href="riego.html">Accesorios de riego</a></li>
 						<li><a href="herramientas.html">Herramientas</a></li>
 						<li><a href="mangueras.html">Mangueras</a></li>
 						<li><a href="ayc.html">Aspersores y Cañones</a></li>
-				</ul></li>
-		  
+					</ul>
+				</li>
+
 				<li class="btn"><a href="index.html">Inicio</a></li>
 			</ul>
-			</header>
+		</header>
+		<main>
+			<div class="contenedor">
+				<h2>Envianos tus sugerencias!</h2>
+				<form action="sug.php" method="post" id="s-form">
+					<div>
+						<div class="datos">
+							<label id="user-label" for="name">Usuario</label>
+							<input type="text" name="user" id="user" placeholder="Ingresa tu nombre de usuario" required>
+						</div>
+						<!--Name-->
+						<div class="datos">
+							<label id="email-label" for="email">Email</label>
+							<input type="email" name="email" id="email" placeholder="Enter your email" required>
+						</div>
+						<div class="datos">
+							<label id="email-label" for="email">Sugerencia</label>
+							<textarea name="sugerencia" id="sugerencia" placeholder="" required></textarea>
+						</div>
+						<div class="butn">
+							<input type="submit" class="button btn-bootstrap" value="Enviar"></button>
+						</div>
+					</div>
+				</form>
+
+			</div>
+	</div>
+	</main>
+	</div>
 
 </html>

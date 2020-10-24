@@ -1,0 +1,168 @@
+html {
+  background-image: url("https://www.howdeniberia.com/wp-content/uploads/2019/01/fondo-azul-marino.png");
+  font-family: 'Cairo', sans-serif;
+  }
+#principal {
+    width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 0px solid #000;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#logo {
+  width: 200px;
+  min-width: 100px;
+  height: 100px;
+  min-height: 100px;
+  border: 0px solid #000;
+  padding-left: 1em;
+  margin-top: 1em;
+}
+#logo img {
+	width: 100%;
+	height: 80%;
+}
+
+.img {
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+
+
+.nav {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  flex-grow: 0;
+  justify-content: space-between;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin: auto;
+  white-space: nowrap;
+}
+ul,
+ol {
+  list-style: none;
+}
+.nav li a {
+  background-color: #006699;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 40px;
+  display: block;
+  width: auto;
+}
+.nav li a:hover {
+  background-color: #707070;
+}
+.nav > li {
+  float: right;
+  width: auto;
+  height: auto;
+}
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+.nav li:hover > ul {
+  display: block;
+}
+.nav li ul li {
+  position: relative;
+}
+.nav li ul li ul {
+  right: -140px;
+  top: 0px;
+}
+
+.contenedor {
+  width: 75%;
+  height: 75%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(51, 165, 200, 0.5);
+  border-radius: 30px 30px 30px 30px;
+  border: 0px solid #000000;
+  -webkit-box-shadow: -5px -1px 24px -1px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: -5px -1px 24px -1px rgba(0, 0, 0, 0.68);
+  box-shadow: -5px -1px 24px -1px rgba(0, 0, 0, 0.68);
+  text-align: center;
+}
+#s-form {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  text-align: left;
+}
+.datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-betweeen;
+  margin: 0 auto 1.25rem 0;
+  padding: 0.25rem;
+  width: 100%;
+  height: auto;
+}
+.datos input {
+  padding-top: 1vh;
+  margin-top: 1em;
+  margin-right: 1em
+}
+label {
+  color: white;
+}
+#sugerencia {
+  width: 30vw;
+  height: 25vh;
+}
+.button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.15s ease-in-out;
+}
+.btn-bootstrap:hover,
+.btn-bootstrap:focus {
+  background-color: #0069d9;
+}
+
+.btn-bootstrap:active {
+  background-color: #0062cc;
+}
+.butn {
+display: flex;
+justify-content: center;
+padding-right: 1em;
+}
