@@ -1,5 +1,6 @@
 html {
 	background-image: url("https://www.howdeniberia.com/wp-content/uploads/2019/01/fondo-azul-marino.png");
+	font-family: 'Cairo', sans-serif;
   }
   #principal {
 	width: 100%;
@@ -56,11 +57,11 @@ html {
 	float: left;
 	padding: 5px;
 	text-align: center;
-	color: #4682b4;
+	color: #ccc;
 }
 
 .parrafo{
-	color: #707070;
+	color: #ccc;
 	text-align: center;
 }
 

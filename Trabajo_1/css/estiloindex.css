@@ -58,11 +58,11 @@ main {
   float: left;
   padding: 5px;
   text-align: center;
-  color: #4682b4;
+  color: #ccc;
 }
 
 .parrafo {
-  color: #707070;
+  color: #ccc;
   text-align: justify;
 }
 .dos {
@@ -72,16 +72,16 @@ main {
 
 .leer-mas {
   text-decoration: none;
-  border: 1px solid #006699;
+  border: 1px solid #ccc;
   padding: 10px 20px 10px 20px;
   margin-bottom: 10px;
   color: white;
 }
 
 .leer-mas:hover {
-  background: #006699;
-  color: #fff;
-  transition: background, 1s, color 1s;
+  background: white;
+  color: black;
+  transition: white, 1s, color 1s;
 }
 
 #info {
@@ -90,7 +90,7 @@ main {
   overflow: hidden;
   border: 0px solid #c0c0c0;
   margin-top: 10px;
-  color: ;
+  color:whitesmoke ;
 }
 
 #izq {
@@ -113,7 +113,7 @@ main {
   height: 300px;
   border: 1px solid #ccc;
   float: right;
-  color: ;
+  color: whitesmoke;
 }
 
 footer {
