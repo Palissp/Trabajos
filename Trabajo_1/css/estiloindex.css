@@ -30,6 +30,10 @@ header {
   -moz-box-shadow: -5px -1px 24px -1px rgba(0, 0, 0, 0.68);
   box-shadow: -5px -1px 24px -1px rgba(0, 0, 0, 0.68);
   text-align: center;
+  overflow: clip;
+}
+.contenedor img {
+  margin: 2em 0 2em 0;
 }
 main {
 	display: flex;
@@ -56,16 +60,23 @@ main {
 }
 
 #categorias {
-  width: 900px;
-  height: auto;
-  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  overflow: clip;
   border: 0px solid;
-  margin-top: 15px;
+  margin: 0 5vw 0 5vw;
+  display: flex;
+  flex-direction: row;
+}
+.f {
+  display: flex;
 }
 
 .uno {
   width: 280px;
-  height: auto;
+  max-height: 115vh;
+  min-height: 115vh;
+  height: 115vh;
   overflow: hidden;
   border: 1px solid #ccc;
   float: left;
@@ -81,8 +92,8 @@ margin: 1em 0 1em 0;
   text-align: justify;
 }
 .dos {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .dos p{
 margin: 1em 0 1em 0;
@@ -103,34 +114,43 @@ margin: 1em 0 1em 0;
 }
 
 #info {
-  width: 900px;
+  width: auto;
   height: auto;
-  overflow: hidden;
-  border: 0px solid #c0c0c0;
-  margin-top: 10px;
+  overflow: clip;
+  border: 1px solid #c0c0c0;
+  margin: 0 5vw 0 5vw;
   color:whitesmoke ;
+  display: flex;
+  flex-direction: row;
+
+}
+#info section {
+  border: 1px solid #c0c0c0;
 }
 
 #izq {
   width: 585px;
   height: auto;
   overflow: hidden;
-  border: 1px solid #ccc;
-  float: left;
+  border: 1px solid #c0c0c0;
   padding: 5px;
-  color: #4682b4;
+  color: #46b4b4;
 }
 
 .img {
   margin-right: 7px;
   margin-bottom: 7px;
 }
+.up {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 #der {
   width: 290px;
   height: 200px;
-  border: 1px solid #ccc;
-  float: right;
+  border: 1px solid #c0c0c0;
   color: whitesmoke;
 }
 

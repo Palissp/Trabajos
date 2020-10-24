@@ -21,7 +21,8 @@ $comentario = $_POST["sugerencia"];
 $sql = "INSERT INTO comments (user,email,comment) VALUES ('$usuario','$email','$comentario')";   
 
 if (mysqli_query($conn, $sql)) {
-    echo "Se ha registrado correctamente";
+    echo "Se ha registrado correctamente\n";
+    echo "<br>Pulsa atrás para continuar"; 
 } else {
    echo "Error:" . $sql . "<br>" . mysqli_error($conn);
 }
