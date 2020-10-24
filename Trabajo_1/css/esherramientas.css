@@ -76,16 +76,16 @@ html {
 		}
 
 		.nav {
-			display: inline-flex;
-			flex-wrap: nowrap;
-			flex-shrink: 0;
-			flex-grow: 0;
-			justify-content: space-between;
-			margin: 0;
-			white-space: nowrap;
-			overflow: hidden;
-			box-sizing: border-box;
-		  }
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  flex-grow: 0;
+  justify-content: space-between;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
  ul,ol{
         	list-style:none;
         }
@@ -120,13 +120,3 @@ html {
         	right: -140px;
         	top: 0px;
         }
-		footer{
-			width:900px;
-			height: auto;
-			border: px solid #000;
-			text-align: right;
-			margin-top: 30px;
-			list-style:none;
-			background-color: white;
-			color: white;
-		}
