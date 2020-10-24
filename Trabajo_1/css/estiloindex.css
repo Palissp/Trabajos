@@ -1,8 +1,9 @@
 html {
   background-image: url("https://www.howdeniberia.com/wp-content/uploads/2019/01/fondo-azul-marino.png");
-}
+  font-family: 'Cairo', sans-serif;
+  }
 #principal {
-  width: 100%;
+    width: 100%;
   height: auto;
   overflow: hidden;
   border: 0px solid #000;
